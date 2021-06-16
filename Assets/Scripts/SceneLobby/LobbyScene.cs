@@ -1,5 +1,7 @@
+using CoreNet.Networking;
 using CoreNet.Protocols;
 using MmoCore.Packets;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -16,7 +18,6 @@ using UnityEngine.UI;
 
 public class LobbyScene : MonoBehaviour
 {
-
     public InputField ConnToIpTxt;
 
     public LobbyLog lobbyLog;
@@ -29,11 +30,25 @@ public class LobbyScene : MonoBehaviour
 
     private Networker lobbyNetworker;
     private AsyncOperation selectSceneOp;
+    private Dictionary<MmoCorePacket.PACKET_TYPE, Action<CoreSession, MmoCorePacket>> pTypeAct = new Dictionary<Packet.PACKET_TYPE, Action<CoreSession, MmoCorePacket>>();
+
+    public GameObject StartObj;
+    public GameObject ConnObj;
+
 #if TESTING
     bool isTest = true;
 #else
     bool isTest = false;
 #endif
+
+    public void Start()
+    {
+        pTypeAct[MmoCorePacket.PACKET_TYPE.ANS] = Dispatch_Ans;
+        pTypeAct[MmoCorePacket.PACKET_TYPE.REQ] = Dispatch_Req;
+        pTypeAct[MmoCorePacket.PACKET_TYPE.NOTI] = Dispatch_Noti;
+        pTypeAct[MmoCorePacket.PACKET_TYPE.TEST] = Dispatch_Test;
+    }
+
 
     private IEnumerator StartConn()
     {
@@ -119,18 +134,49 @@ public class LobbyScene : MonoBehaviour
         var session = _pkg.session;
 
         packet.ReadPacketType();
+
         MmoCorePacket mp = new MmoCorePacket(packet);
-        switch (mp.cType)
+        
+        //exception check?
+        pTypeAct[mp.pType](session, mp);
+    }
+
+    private void Dispatch_Req(CoreSession _s, MmoCorePacket _mp)
+    {
+        switch (_mp.cType)
+        {
+            default:
+                break;
+        }
+    }
+    private void Dispatch_Ans(CoreSession _s, MmoCorePacket _mp)
+    {
+        switch (_mp.cType)
+        {
+            case MmoCore.Enums.CONTENT_TYPE.WELCOME:
+                Debug.Log("recv welcome");
+                ConnObj.SetActive(false);
+                StartObj.SetActive(true);
+                break;
+            default:
+                break;
+        }
+    }
+    private void Dispatch_Noti(CoreSession _s, MmoCorePacket _mp)
+    {
+        switch (_mp.cType)
+        {
+            case MmoCore.Enums.CONTENT_TYPE.CHAT:
+                break;
+            default:
+                break;
+        }
+    }
+    private void Dispatch_Test(CoreSession _s, MmoCorePacket _mp)
+    {
+        switch (_mp.cType)
         {
             case MmoCore.Enums.CONTENT_TYPE.TEST:
-                break;
-            case MmoCore.Enums.CONTENT_TYPE.WELCOME:
-                {
-                    UnityEngine.Debug.Log("recv welcome packet");
-                    //todo : scene change
-                    isWelcomed = true;
-                    ChangeToSelectScene();
-                }
                 break;
             default:
                 break;
