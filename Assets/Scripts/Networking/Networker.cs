@@ -12,6 +12,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
+using static CoreNet.Protocols.Packet;
 
 //one connection 
 public class Networker : CoreNetwork, IDisposable

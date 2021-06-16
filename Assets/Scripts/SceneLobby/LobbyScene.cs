@@ -1,6 +1,7 @@
 using CoreNet.Networking;
 using CoreNet.Protocols;
 using MmoCore.Packets;
+using MmoCore.Protocols;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ using System.Web;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static CoreNet.Protocols.Packet;
 
 public class LobbyScene : MonoBehaviour
 {
@@ -30,7 +32,7 @@ public class LobbyScene : MonoBehaviour
 
     private Networker lobbyNetworker;
     private AsyncOperation selectSceneOp;
-    private Dictionary<MmoCorePacket.PACKET_TYPE, Action<CoreSession, MmoCorePacket>> pTypeAct = new Dictionary<Packet.PACKET_TYPE, Action<CoreSession, MmoCorePacket>>();
+    private Dictionary<PACKET_TYPE, Action<CoreSession, MmoCorePacket>> pTypeAct = new Dictionary<PACKET_TYPE, Action<CoreSession, MmoCorePacket>>();
 
     public GameObject StartObj;
     public GameObject ConnObj;
@@ -43,12 +45,16 @@ public class LobbyScene : MonoBehaviour
 
     public void Start()
     {
-        pTypeAct[MmoCorePacket.PACKET_TYPE.ANS] = Dispatch_Ans;
-        pTypeAct[MmoCorePacket.PACKET_TYPE.REQ] = Dispatch_Req;
-        pTypeAct[MmoCorePacket.PACKET_TYPE.NOTI] = Dispatch_Noti;
-        pTypeAct[MmoCorePacket.PACKET_TYPE.TEST] = Dispatch_Test;
-    }
 
+        Translate.Init();
+        MmoTranslate.Init();
+
+        pTypeAct[PACKET_TYPE.ANS] = Dispatch_Ans;
+        pTypeAct[PACKET_TYPE.REQ] = Dispatch_Req;
+        pTypeAct[PACKET_TYPE.NOTI] = Dispatch_Noti;
+        pTypeAct[PACKET_TYPE.TEST] = Dispatch_Test;
+
+    }
 
     private IEnumerator StartConn()
     {
