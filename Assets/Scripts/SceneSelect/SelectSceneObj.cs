@@ -1,4 +1,4 @@
-using common.Networking;
+using CoreNet.Networking;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,7 +1,7 @@
-using common.Jobs;
-using common.Networking;
-using common.Protocols;
-using common.Sockets;
+using CoreNet.Jobs;
+using CoreNet.Networking;
+using CoreNet.Protocols;
+using CoreNet.Sockets;
 using MmoCore.Enums;
 using MmoCore.Packets;
 using System;
@@ -78,8 +78,8 @@ public class Networker : CoreNetwork, IDisposable
             if (mSession.Sock.Sock.Connected == false)
                 return;
             var hbPacket = new HBNoti();
-            hbPacket.PacketWrite();
-            mSession.OnSendTAP(hbPacket.packet);
+            hbPacket.SerWrite();
+            mSession.OnSendTAP(hbPacket);
         }));
     }
 

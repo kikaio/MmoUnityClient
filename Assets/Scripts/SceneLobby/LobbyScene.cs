@@ -1,4 +1,4 @@
-using common.Protocols;
+using CoreNet.Protocols;
 using MmoCore.Packets;
 using System.Collections;
 using System.Collections.Generic;
@@ -72,9 +72,9 @@ public class LobbyScene : MonoBehaviour
         float deltaSec = 0.3f;
         while (isWelcomed == false)
         {
-            var hello = new HelloPacket();
-            hello.PacketWrite();
-            lobbyNetworker.mSession.OnSendTAP(hello.packet);
+            HelloReq hello = new HelloReq();
+            hello.SerWrite();
+            lobbyNetworker.mSession.OnSendTAP(hello);
             yield return new WaitForSeconds(deltaSec);
             UnityEngine.Debug.Log("hello send");
         }
@@ -115,7 +115,7 @@ public class LobbyScene : MonoBehaviour
 
     private void PkgDispatcher(Package _pkg)
     {
-        var packet = _pkg.packet;
+        var packet = _pkg.Packet;
         var session = _pkg.session;
 
         packet.ReadPacketType();
