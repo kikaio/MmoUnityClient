@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: e402b6000ebb2bf4f955af5b4bacfa4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4053414769109262075
+    second: SelectScene_Atlas_0
+  - first:
+      213: -3438005743725781145
+    second: SelectScene_Atlas_1
+  - first:
+      213: -9215329951586238119
+    second: SelectScene_Atlas_2
+  - first:
+      213: 6701335754944732921
+    second: SelectScene_Atlas_3
+  - first:
+      213: 3203726087557818655
+    second: SelectScene_Atlas_4
+  - first:
+      213: 2552819567787986237
+    second: SelectScene_Atlas_5
+  - first:
+      213: -2252612923170214703
+    second: SelectScene_Atlas_6
+  - first:
+      213: -618930928496278608
+    second: SelectScene_Atlas_7
+  - first:
+      213: -2025203632399323096
+    second: SelectScene_Atlas_8
+  - first:
+      213: 2974539706441703082
+    second: SelectScene_Atlas_9
+  - first:
+      213: -5228033061002044611
+    second: SelectScene_Atlas_13
+  - first:
+      213: -1410022681265251819
+    second: SelectScene_Atlas_14
+  - first:
+      213: 1647615213727506150
+    second: SelectScene_Atlas_15
+  - first:
+      213: 2825654598778591501
+    second: SelectScene_Atlas_16
+  - first:
+      213: -3026449235432846395
+    second: SelectScene_Atlas_20
+  - first:
+      213: -7047618937386973771
+    second: SelectScene_Atlas_21
+  - first:
+      213: 5754905264556416841
+    second: SelectScene_Atlas_22
+  - first:
+      213: -4525770129088912137
+    second: SelectScene_Atlas_23
+  - first:
+      213: 8836991135020072808
+    second: SelectScene_Atlas_24
+  - first:
+      213: 5563000648488528549
+    second: SelectScene_Atlas_25
+  - first:
+      213: -4706026017362651670
+    second: SelectScene_Atlas_26
+  - first:
+      213: -7562080914670058622
+    second: SelectScene_Atlas_27
+  - first:
+      213: -4439343373406703426
+    second: SelectScene_Atlas_28
+  - first:
+      213: -4696035632257715451
+    second: SelectScene_Atlas_29
+  - first:
+      213: 1460358103147469040
+    second: SelectScene_Atlas_30
+  - first:
+      213: 1905988792176810635
+    second: SelectScene_Atlas_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SelectScene_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 437
+        width: 124
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe5410b14f904830800000000000000
+      internalID: 4053414769109262075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 437
+        width: 116
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fd87dcdffb940d0800000000000000
+      internalID: -3438005743725781145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 349
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9514fa3eb329c1080800000000000000
+      internalID: -9215329951586238119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 349
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9feda1a2d5deffc50800000000000000
+      internalID: 6701335754944732921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 349
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19298e07ebe57c20800000000000000
+      internalID: 3203726087557818655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 349
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d4ba91fdf6d6320800000000000000
+      internalID: 2552819567787986237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 402
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc2cf13b7c1db0e0800000000000000
+      internalID: -2252612923170214703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 402
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b30a7a899d1967f0800000000000000
+      internalID: -618930928496278608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 402
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820f10db60805e3e0800000000000000
+      internalID: -2025203632399323096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 402
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae90cc6a10b74920800000000000000
+      internalID: 2974539706441703082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 367
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b99fc51ab4277b0800000000000000
+      internalID: -5228033061002044611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 367
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ad0fd87d79e6ce0800000000000000
+      internalID: -1410022681265251819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 367
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eed1c4be418dd610800000000000000
+      internalID: 1647615213727506150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 367
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09952af2edb63720800000000000000
+      internalID: 2825654598778591501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 140
+        width: 304
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbc5478474eff5d0800000000000000
+      internalID: -3026449235432846395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 226
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5cbb49ae3d13e90800000000000000
+      internalID: -7047618937386973771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 226
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f19e9e8d78ddf40800000000000000
+      internalID: 5754905264556416841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 226
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4e490db0c3131c0800000000000000
+      internalID: -4525770129088912137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 226
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fb52eed9c43aa70800000000000000
+      internalID: 8836991135020072808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 64
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2d62ad9fb33d40800000000000000
+      internalID: 5563000648488528549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3
+        width: 64
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae55a535546d0beb0800000000000000
+      internalID: -4706026017362651670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 85
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283845649771e0790800000000000000
+      internalID: -7562080914670058622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 103
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0fb18f8b84462c0800000000000000
+      internalID: -4439343373406703426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 103
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b3be197454deb0800000000000000
+      internalID: -4696035632257715451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 103
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8d7fe15fb344410800000000000000
+      internalID: 1460358103147469040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SelectScene_Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 103
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a139745be637a10800000000000000
+      internalID: 1905988792176810635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
